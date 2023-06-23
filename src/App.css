@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#rocket{
+	width: 60px;
+	padding-left: 60px;
+}
+
+#rotated {
+  transform: rotate(-10deg); /* Equal to rotateZ(45deg) */
+ 
+}
+
+#one{
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+
+.expand{
+	@apply       
+	tracking-wider
+	transition ease-in-out 
+	hover:-translate-y-1
+	hover:scale-110 
+	duration-300;
+}
