@@ -8,7 +8,7 @@ import imageSrcLokal from '../assets/img/job/LOKAL.png';
 
 const WorkExperience=()=>{
   return(
-    <div className="">
+    <div className="bg-gradient-to-br  from-mainThemeColor from-60% to-sirNameColor/75 to-10%" >
       <h1 className="text-orangeStartColor text-center drop-shadow-lg pt-4">Work Experience</h1>
       <div className=" flex flex-wrap justify-around ">
         <Card imageSrc={imageSrc} comp={"Bybrick Elevate"}  title={"Software developer"} date={"January 2022 to february 2023"} description={"Backend development with Aws Lambda, nodejs, "} descOne={"TypeScript,dynamoDb, .Net C#, Cosmos db "} desctwo={"Front end development with React och Angular"}  />

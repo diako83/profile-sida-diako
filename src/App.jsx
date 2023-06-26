@@ -6,6 +6,11 @@ import NavBar from './components/navbar'
 import WorkExperience from './components/WorkExperience'
 
 import CarouselOne from './components/Carousel/carousel'
+import Education from './components/education'
+import BgCircle from './components/bgcircle/bgcircle'
+
+import arrowImg from '../src/assets/img/next.png';
+import Projects from './components/projcts'
 
 
 
@@ -13,7 +18,7 @@ function App() {
 
   return (
    <>
-     <Parallax pages={3} style={{ top: '0', left: '0' }} className="bg-mainThemeColor " >
+     <Parallax pages={3} style={{ top: '0', left: '0' }} className="bg-mainThemeColor "  autoPlay interval="5000" transitionTime="5000" infiniteLoop >
           <ParallaxLayer offset={0} speed={0} factor={3}>
             <div className='bg-mainThemeColor rounded-md text-sm md:text-lg lg:text-xl'>
               <div className="flex flex-row justify-around ">
@@ -33,21 +38,24 @@ function App() {
                     <div className='basis-2/4'>
                     <HeaderText/>
                     </div>
-                    
+                    {/* <div className="flex justify-center">
+          <img className='w-52 transform rotate-90 expand' src={arrowImg} alt="" />
+        </div> */}
                   </div>
                 <NestedCircles/>
               </div>
-              
             </div>  
          </ParallaxLayer>
          <ParallaxLayer offset={0.98} speed={2.5}>
                 <WorkExperience/>   
           </ParallaxLayer>
-          <ParallaxLayer offset={1.1} speed={2.5}>
-                <CarouselOne/>  
-          </ParallaxLayer>
+          <ParallaxLayer offset={1.0} speed={2.5}>
+                <Education/>  
+                <Projects />  
+          </ParallaxLayer>   
+         
       </Parallax>
-      
+      <BgCircle/>
     </>
   )
 }

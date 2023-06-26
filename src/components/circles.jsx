@@ -1,5 +1,6 @@
 import imageSrc from '../assets/img/geek.png';
 import imageSrcProfile from '../assets/img/profile.png';
+import CarouselOne from './Carousel/carousel';
 const NestedCircles = () => {
  
   return (<>
@@ -19,7 +20,11 @@ const NestedCircles = () => {
       </div>
       <div  className="w-[400px] h-[400px] bg-gradient-to-t from-middleRingOne to-middleRingSecond rounded-full flex justify-center items-center">
         <div id="one"  className="w-[280px] h-[280px] bg-gradient-to-t from-innerRingOne to-innerRingSecond rounded-full"></div>
-        <img  className='expand  rounded-full w-80 absolute top-[-23%] right-50' src={imageSrcProfile} alt="" />
+        {/* <img  className='expand  rounded-full w-80 absolute top-[-23%] right-50' src={imageSrcProfile} alt="" /> */}
+        <div className='expand  rounded-full w-80 absolute top-[15%] right-50'  >
+        <CarouselOne/>
+        </div>
+    
       </div>
     </div>
 

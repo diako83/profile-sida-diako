@@ -53,3 +53,57 @@
 	hover:scale-110 
 	duration-300;
 }
+
+
+
+  
+.downloading {
+  width: 30px;
+  height: 32px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.custom-arrow {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(189, 25, 25, 1);
+  
+  animation-name: downloading;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.custom-arrow::after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: -9px;
+  border-top: 15px solid rgba(189, 25, 25, 1);
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+}
+
+@keyframes downloading {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  50% {
+    top: 110%;
+    opacity: 0;
+  }
+  52% {
+    top: -110%;
+    opacity: 0;
+  } 
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
