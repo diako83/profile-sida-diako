@@ -8,6 +8,11 @@ module.exports = withMT({
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      sans: ["Roboto", "Arial", "sans-serif"],
+      serif: ["Georgia", "Times New Roman", "serif"],
+      mono: ["Consolas", "Monaco", "monospace"],
+    },
     colors: {
       outerRingOne: "#aed9e8",
       outerRingSecond: "#abdaea",

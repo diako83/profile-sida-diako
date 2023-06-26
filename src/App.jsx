@@ -9,6 +9,7 @@ import BgCircle from './components/bgcircle/bgcircle'
 
 import Projects from './components/projcts'
 import Buttons from './components/Buttons'
+import NavBar from './components/navbar'
 
 
 
@@ -22,15 +23,8 @@ function App() {
               <div className="flex flex-row justify-around ">
                 <  div className="flex flex-col justify-around ">
                     <div className='basis-1/4'>
-                     {/* <NavBar/> */}
-                      <div className="flex flex-row justify-around ">
-                        <div className=" flex flex-row justify-between pt-16"><div className="pr-1 text-sirNameColor text-6xl">Diako</div><div className="text-lastNameColor text-6xl">Ismail</div></div>
-                        {/* <div className="">Home</div>
-                        <div className="">Work experience</div>
-                        <div className="">Education</div>
-                        <div className="">Projects</div>
-                        <div className="">Contact</div> */}
-                      </div>
+                     <NavBar/>
+                      <div className=" flex flex-row justify-center pt-16"><div className="pr-1 text-sirNameColor text-6xl">Diako</div><div className="text-lastNameColor text-6xl">Ismail</div></div>
                     </div>
                  
                     <div className='basis-3/4 flex flex-col justify-center'>
@@ -42,15 +36,13 @@ function App() {
                     <Buttons/>
                     </div>
                     </div>
-                    {/* <div className="flex justify-center">
-          <img className='w-52 transform rotate-90 expand' src={arrowImg} alt="" />
-        </div> */}
+            
                   </div>
                 <NestedCircles/>
               </div>
             </div>  
          </ParallaxLayer>
-         <ParallaxLayer offset={0.98} speed={2.5}>
+         <ParallaxLayer offset={1} speed={2.5}>
           <div className='drop-shadow-lg'>
           <WorkExperience/>  
           </div>
@@ -66,7 +58,7 @@ function App() {
          
       </Parallax>
       
-      <BgCircle/>
+      {/* <BgCircle/> */}
     
     </>
   )

@@ -3,7 +3,7 @@
 const CardProjects =(props)=>{
 return(
   <div  className="card card-side bg-gradient-to-br  from-mainThemeColor from-80% to-lastNameColor to-10% shadow-xl m-5 expand">
-    <figure><img src={props.imageSrc} alt="Movie" className='w-52 p-2'/></figure>
+    <figure><img src={props.imageSrc} alt="Movie" className='w-52 p-2 rounded-3xl'/></figure>
  
   <div className="card-body w-96">
     <h1 className="card-title ">{props.comp}</h1>
