@@ -16,6 +16,13 @@ return(
       <p className="pb-2"> {props.descOne}</p>
       
       <p> {props.desctwo}</p>
+      <br />
+      <ul>
+     <li> <a className="text-lastNameColor" href={props.gitRepoFront} >Git repo frontend </a></li>
+     <li><a className="text-lastNameColor"  href={props.gitRepoBackend}>Git repo Backend </a></li>
+    
+      </ul>
+      
     </div>
   </div>
 </div>

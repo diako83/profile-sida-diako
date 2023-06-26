@@ -13,17 +13,17 @@ const Projects=()=>{
         <CardProjects  imageSrc={imageSrc} comp={"Solid increase"}  title={"Fitness app"} date={"Ongoing"} 
         description={"Solid Increase is in ongoing personal project. Aimed to help to create custom workouts and to monitor progress"}
          descOne={"Technologies: Front end is maid with Nextjs13 and tailwind and Typescript"}
-          desctwo={"Backend:Constructed in Microservices Architecture. Java Spring boot, with Eureka, docker, Kubernetes, CI/CD and more  "}
-          gitRepoFront={""}
-          gitRepoBackend={""}
+          desctwo={"Backend:Constructed in Microservices Architecture. Java Spring boot, with jpa, postgres,Eureka, docker, Kubernetes, CI/CD and more  "}
+          gitRepoFront={"https://github.com/diako83/solid-increase-cli.git"}
+          gitRepoBackend={"https://github.com/diako83/solidin-crease-backends-ervices.git"}
           />
 
         <CardProjects  imageSrc={imageSrcBrew } comp={"Brew assist"}  title={"Brew calculator"} date={"Ongoing"} 
         description={"A application that aimed towards home brewers. It takes care of calculations for the measures ingredient and saves recipes for future reference "}
         descOne={"Technologies: Front end is maid with React and Material ui and Typescript"}
-        desctwo={"Backend:Constructed as a monolithic application. Java Spring boot, docker and more  "} 
-        gitRepoFront={"https://gitlab.com/examena1/clientbrewassistant"}
-        gitRepoBackend={"https://gitlab.com/examena1/brewassistantapi"}
+        desctwo={"Backend:Constructed as a monolithic application. Java Spring boot, jpa, postgres, docker and more  "} 
+        gitRepoFront={"https://gitlab.com/examena1/clientbrewassistant.git"}
+        gitRepoBackend={"https://gitlab.com/examena1/brewassistantapi.git"}
         />
    
       </div>
