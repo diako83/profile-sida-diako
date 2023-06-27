@@ -1,7 +1,7 @@
 const HeaderText=()=>{
   return(
     
-    <div className="flex-col columns-1 justify-around ml-9">
+    <div className="flex-col columns-1 justify-around ml-9 text-black">
     <h1 className="">Let's create together</h1>
     <h2>Together we can create, achieve and elevate.</h2>
     <br />

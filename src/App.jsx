@@ -16,9 +16,9 @@ import NavBar from './components/navbar'
 function App() {
 
   return (
-   <>
-     <Parallax pages={3} style={{ top: '0', left: '0' }} className="bg-mainThemeColor "  >
-          <ParallaxLayer offset={0} speed={0} factor={3}>
+   <div className='text-black'>
+     <Parallax pages={12}  style={{ top: '0', left: '0' }} className="bg-mainThemeColor "  >
+         
             <div className='bg-mainThemeColor rounded-md text-sm md:text-lg lg:text-xl'>
               <div className="flex justify-around flex-col lg:flex-row">
                 <  div className="flex flex-col justify-around ">
@@ -38,8 +38,7 @@ function App() {
                 <NestedCircles/>
               </div>
             </div>  
-         </ParallaxLayer>
-         <ParallaxLayer offset={2} speed={2.5}>
+       
               <div className='drop-shadow-lg'>
               <WorkExperience/>  
               </div>
@@ -49,17 +48,14 @@ function App() {
               <div className='drop-shadow-lg'>
                 <Projects /> 
               </div>            
-          </ParallaxLayer>
-          <ParallaxLayer offset={4} speed={2.5}>
-              <div className='drop-shadow-lg'>
-                <Projects /> 
-              </div>            
-          </ParallaxLayer>
+        
+       
+       
       </Parallax>
       
       {/* <BgCircle/> */}
     
-    </>
+    </div>
   )
 }
 

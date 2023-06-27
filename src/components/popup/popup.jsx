@@ -34,7 +34,7 @@ export default function Popup(props) {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto bg-middleRingOne text-white font-light rounded-xl m-4 shadow-2xl shadow-innerRingSecond ">
+                <div className="relative p-6 flex-auto bg-mainThemeColor text-black font-light rounded-xl m-4 shadow-xl shadow-innerRingSecond ">
                   <p className="my-4 text-slate-500 text-lg leading-relaxed"> {props.dataOne} </p>
                   <p className="my-4 text-slate-500 text-lg leading-relaxed"> {props.dataTwo} </p>
                   <p className="my-4 text-slate-500 text-lg leading-relaxed"> {props.dataThree} </p>
