@@ -26,17 +26,14 @@ function App() {
                      <NavBar/>
                       <div className=" flex flex-row justify-center pt-16"><div className="pr-1 text-sirNameColor text-6xl">Diako</div><div className="text-lastNameColor text-6xl">Ismail</div></div>
                     </div>
-                 
                     <div className='basis-3/4 flex flex-col justify-center'>
                     <div className='basis-3/4 flex flex-col justify-around'>
                       <div className='pb-2'>
                       <HeaderText/>
                       </div>
-            
                     <Buttons/>
                     </div>
                     </div>
-            
                   </div>
                 <NestedCircles/>
               </div>
@@ -51,11 +48,8 @@ function App() {
                 </div>
                 <div className='drop-shadow-lg'>
                 <Projects /> 
-                </div>
-                  
+                </div>            
           </ParallaxLayer>
-         
-         
       </Parallax>
       
       {/* <BgCircle/> */}

@@ -1,4 +1,5 @@
 import Popup from "./popup/popup";
+import PopupExperiance from "./popup/popupExperisnce";
 
 
 const Buttons =()=>{
@@ -13,7 +14,7 @@ return(
         dataSix={"Looking ahead, I am excited about the future and the opportunities that lie ahead. I am eager to continue expanding my knowledge and skills in the field I am passionate about. I see myself taking on leadership roles, where I can inspire and guide others towards success."}
         dataSeven={"Thank you for taking the time to read this letter. I hope it has provided you with some insight into who I am as a person and a professional. I am open to discussing any potential opportunities or collaborations in the future."}
         />
-        < Popup buttonTitle={"Experiance"}/>
+        < PopupExperiance buttonTitle={"Experiance"}/>
         
         < Popup buttonTitle={"Reference"}
         dataOne={"Bybrick elevate: Peter Öhlin, team lead, Phone: +46 76 654 30 00 email: peter.ohlin@bybrick.se"}

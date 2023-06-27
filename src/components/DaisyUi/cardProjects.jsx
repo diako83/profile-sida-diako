@@ -11,7 +11,7 @@ return(
     <p className='text-sm'>{props.date}</p>
     
     <div className=" ">
-      <h2 className='font-bold'>Assignment</h2>
+      <h2 className='font-bold'>Project </h2>
       <p className="pb-2">{props.description}</p>
       <p className="pb-2"> {props.descOne}</p>
       
