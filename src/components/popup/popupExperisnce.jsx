@@ -36,10 +36,10 @@ export default function PopupExperiance(props) {
                   </button>
                 </div>
                 {/*body*/}
-                <div className="relative p-6 flex-auto bg-middleRingOne text-white font-light rounded-xl m-4 shadow-2xl shadow-innerRingSecond text-left ">
-                <Carousel showNex={false} showIndicators={false} showStatus={false} className="flex flex-wrap justify-around "  showThumbs={false}>
+                <div className="relative p-6 flex-auto bg-middleRingOne text-white font-light rounded-xl m-4 shadow-2xl shadow-innerRingSecond text-left  w-[45%]">
+                <Carousel showNex={false} showIndicators={true} showStatus={false} className="flex flex-wrap justify-around "  showThumbs={false}>
                   <div className="text-left">
-                  <p className="my-4 text-slate-500 text-lg leading-relaxed">I want to tell you about how i started programming and how its going </p>
+                  <p className="my-4 text-slate-500 text-lg leading-relaxed">I want to talk about how i got into programming / development and how its going </p>
                     <p className="my-4 text-slate-500 text-lg leading-relaxed"> {experianceText.a1} </p>
                     <p className="my-4 text-slate-500 text-lg leading-relaxed">{experianceText.a2}</p>
                     <p className="my-4 text-slate-500 text-lg leading-relaxed"> {experianceText.a3} </p>
@@ -75,7 +75,7 @@ export default function PopupExperiance(props) {
                   </Carousel>
                 </div>
                 {/*footer*/}
-                <div className="flex items-center justify-end p-6 border-t border-solid border-slate-200 rounded-b">
+                <div className="flex items-center justify-start p-6 border-t border-solid border-slate-200 rounded-b">
                   <button
                     className="text-sirNameColor background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"

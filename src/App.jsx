@@ -17,10 +17,10 @@ function App() {
 
   return (
    <>
-     <Parallax pages={3} style={{ top: '0', left: '0' }} className="bg-mainThemeColor "  autoPlay interval="5000" transitionTime="5000" infiniteLoop >
+     <Parallax pages={3} style={{ top: '0', left: '0' }} className="bg-mainThemeColor "  >
           <ParallaxLayer offset={0} speed={0} factor={3}>
             <div className='bg-mainThemeColor rounded-md text-sm md:text-lg lg:text-xl'>
-              <div className="flex flex-row justify-around ">
+              <div className="flex justify-around flex-col lg:flex-row">
                 <  div className="flex flex-col justify-around ">
                     <div className='basis-1/4'>
                      <NavBar/>
@@ -39,16 +39,21 @@ function App() {
               </div>
             </div>  
          </ParallaxLayer>
-         <ParallaxLayer offset={1} speed={2.5}>
-          <div className='drop-shadow-lg'>
-          <WorkExperience/>  
-          </div>
-          <div className='drop-shadow-lg'>
+         <ParallaxLayer offset={2} speed={2.5}>
+              <div className='drop-shadow-lg'>
+              <WorkExperience/>  
+              </div>
+              <div className='drop-shadow-lg'>
                 <Education/>  
-                </div>
-                <div className='drop-shadow-lg'>
+              </div>
+              <div className='drop-shadow-lg'>
                 <Projects /> 
-                </div>            
+              </div>            
+          </ParallaxLayer>
+          <ParallaxLayer offset={4} speed={2.5}>
+              <div className='drop-shadow-lg'>
+                <Projects /> 
+              </div>            
           </ParallaxLayer>
       </Parallax>
       

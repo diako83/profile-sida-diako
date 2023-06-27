@@ -2,7 +2,7 @@ import imageSrc from '../../assets/img/cardbgone.jpg';
 
 const Card =(props)=>{
 return(
-  <div  className="card card-side bg-gradient-to-br  from-mainThemeColor from-80% to-lastNameColor to-10% shadow-xl m-5 expand">
+  <div  className="card card-side bg-gradient-to-br  from-mainThemeColor from-80% to-lastNameColor to-10% shadow-xl m-5 expand flex-col lg:flex-row">
     <figure><img src={props.imageSrc} alt="Movie" className='w-52 p-2'/></figure>
  
   <div className="card-body w-96">
