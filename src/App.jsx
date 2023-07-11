@@ -16,8 +16,8 @@ import NavBar from './components/navbar'
 function App() {
 
   return (
-   <div className='text-black'>
-     <Parallax pages={12}  style={{ top: '0', left: '0' }} className="bg-mainThemeColor "  >
+   <div className='text-black w-screen'>
+     <div style={{ top: '0', left: '0' }} className="bg-mainThemeColor "  >
          
             <div className='bg-mainThemeColor rounded-md text-sm md:text-lg lg:text-xl'>
               <div className="flex justify-around flex-col lg:flex-row">
@@ -51,7 +51,7 @@ function App() {
         
        
        
-      </Parallax>
+      </div>
       
       {/* <BgCircle/> */}
     

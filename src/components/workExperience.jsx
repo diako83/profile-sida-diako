@@ -8,8 +8,8 @@ import imageSrcLokal from '../assets/img/job/LOKAL.png';
 
 const WorkExperience=()=>{
   return(
-    <div className="bg-gradient-to-br  from-mainThemeColor from-60% to-sirNameColor/75 to-10%" >
-      <h1 className="text-orangeStartColor text-center drop-shadow-lg pt-4">Work Experience</h1>
+    <div className="bg-gradient-to-br  to-10%" >
+      <h1 className="text-orangeStartColor text-center drop-shadow-lg pt-4 text-3xl md:text-5xl">Work Experience</h1>
       <div className=" flex flex-wrap justify-around ">
         <Card imageSrc={imageSrc} comp={"Bybrick Elevate"}  title={"Software developer"} date={"January 2022 to february 2023"} description={"Backend development with Aws Lambda, nodejs, "} descOne={"TypeScript,dynamoDb, .Net C#, Cosmos db "} desctwo={"Front end development with React och Angular"}  />
         <Card imageSrc={imageSrcCoppersmiths} comp={"Coppersmith's Brewery"}  title={"Head Brewer"} date={"2017-2018"} description={"Responsible for the daily beer production and cleaning the equipment and more"} />

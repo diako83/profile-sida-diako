@@ -1,6 +1,6 @@
 const CardEducationDisplay =(props)=>{
   return(
-    <div  className="card card-side bg-gradient-to-br  from-mainThemeColor from-80% to-sirNameColor/75 to-10% shadow-xl m-5 expand flex-col lg:flex-row">
+    <div  className="card card-side bg-gradient-to-br  from-mainThemeColor from-80% to-sirNameColor/20 to-10% shadow-xl m-5 expand flex-col lg:flex-row">
   {props.imageSrc ?  <figure><img  src={props.imageSrc } alt="" className='w-52  p-2 rounded-3xl'/></figure>:""}
  
   <div className="card-body w-96 justify-center">

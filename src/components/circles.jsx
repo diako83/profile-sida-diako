@@ -8,7 +8,7 @@ const NestedCircles = () => {
   <div  className="flex justify-center items-center h-screen ">
   
     <div className=''>
-    <div className="absolute top-[-10%] right-[20%] w-[300px] h-[300px] bg-gradient-to-t from-orangeStartColor  to-orangeEndColor opacity-5  rounded-full flex justify-center items-center"></div>
+    <div className="sticky top-[-10%] right-[20%] w-[300px] h-[300px] bg-gradient-to-t from-orangeStartColor  to-orangeEndColor opacity-5  rounded-full flex justify-center items-center z-[-0]"></div>
 
     <div className=" w-[500px] h-[500px] left-32 bg-gradient-to-t from-outerRingOne to-outerRingSecond rounded-full flex justify-center items-center relative">
     <div id="one" className="expand absolute top-0 right-20 w-[15px] h-[15px] bg-gradient-to-t from-orangeStartColor to-orangeEndColor  rounded-full flex justify-center items-center"></div>

@@ -7,7 +7,7 @@ import CardEducationDisplay from './DaisyUi/cardEducationDisplay';
 const Education=()=>{
   return(
     <>
-        <div className="bg-gradient-to-tr  from-lastNameColor/75 from-40% to-mainThemeColor to-10% mb-10" >
+        <div className="bg-gradient-to-tr   mb-10" >
       <h1 className="text-orangeStartColor text-center drop-shadow-lg pt-4">Education</h1>
       <div className=" flex flex-wrap justify-around  ">
       <CardEducationDisplay

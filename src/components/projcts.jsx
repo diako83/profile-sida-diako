@@ -7,7 +7,7 @@ import CardProjects from "./DaisyUi/cardProjects";
 
 const Projects=()=>{
   return(
-    <div className="bg-gradient-to-br  from-mainThemeColor from-60% to-sirNameColor/75 to-10% expand" >
+    <div className="bg-gradient-to-br  from-mainThemeColor from-60% to-sirNameColor/20 to-10% " >
       <h1 className="text-orangeStartColor text-center drop-shadow-lg pt-4 ">Projects</h1>
       <div className=" flex flex-wrap justify-around ">
         <CardProjects  imageSrc={imageSrc} comp={"Solid increase"}  title={"Fitness app"} date={"Ongoing"} 
